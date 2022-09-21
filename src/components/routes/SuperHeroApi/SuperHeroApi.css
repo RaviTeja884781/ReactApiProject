@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.superherocard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* background: linear-gradient(90deg, hsla(259, 84%, 78%, 1) 0%, hsla(206, 67%, 75%, 1) 100%); */
+}
+
+.card {
+    /* border: 1px solid gold; */
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 700px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    background-color:#a8dadc ;
+}
+
+.card__heading {
+    border: 1px dotted black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    width: 680px;
+}
+
+.card__body {
+    display: flex;
+    justify-content: space-around;
+    width: 680px;
+}
+.card__div-1 {
+    border: 1px dotted black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.card__div-1-1 {
+    border: 1px dotted black;
+    border-radius: 5px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.card__div-1-1 img {
+    border-radius: 5px;
+}
+
+.card__div-1-2 {
+    border: 1px dotted black;
+    border-radius: 5px;
+}
+
+.card__div-1-2 li {
+    margin-left: 20px;
+}
+.card__div-2{
+    border: 1px dotted black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.card__div-2-1{
+    border: 1px dotted black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.card__div-2-1 li {
+    margin-left: 20px;
+}
+.card__div-2-2{
+    border: 1px dotted black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.card__div-2-3{
+    border: 1px dotted black;
+    border-radius: 5px ;
+    padding: 10px;
+
+}
+.card__div-2-2 li {
+    margin-left: 20px;
+}

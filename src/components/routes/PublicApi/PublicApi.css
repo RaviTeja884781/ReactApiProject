@@ -1,0 +1,27 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.publicApi__heading {
+    border-bottom: 2px solid black;
+    width: fit-content;
+    margin: 20px;
+    color: rosybrown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.publicApis {
+    margin: 40px 40px 40px 40px;
+    
+}
+
+.anchor {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.anchor:hover {
+    color: goldenrod;
+}

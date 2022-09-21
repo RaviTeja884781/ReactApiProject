@@ -1,0 +1,65 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.covidapidata h1 {
+  border-bottom: 1px solid #DDD;
+  width: fit-content;
+  padding: 10px;
+  color: rosybrown;
+  margin-bottom: 20px;
+  height: 60px;
+}
+
+.covidapidata {
+  margin: 50px 50px;
+}
+
+.covidapidata__header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.covidapidata__header input {
+  border: 1px solid black;
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  margin-right: -5px;
+  margin-top: -5px;
+  margin-left: -5px;
+  border-radius: 5px;
+}
+
+::placeholder {
+  font-size: large;
+  padding-left: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rosybrown;
+}
+
+.covidapidata__searchbar {
+  border: 1px solid black;
+  width: max-content;
+  padding: 4px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+}
+
+tr:hover {
+  background-color: #90e0ef;
+}
